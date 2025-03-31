@@ -7,7 +7,5 @@ export default defineConfig({
   base: '/portfolio-for-software-developer/',
   build: {
     outDir: 'dist',
-    assetsDir: 'assets',
-    emptyOutDir: true
   }
 })
