@@ -1,7 +1,7 @@
 {
-  "name": "portfoliodesign",
+  "name": "portfolio-for-software-developer",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
