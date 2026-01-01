@@ -3,8 +3,8 @@ import Navbar from "./components/Navbar"
 import About from "./pages/about"
 import Home from "./pages"
 import Work from "./pages/work"
-import Contact from "./pages/contact"
 import Footer from "./pages/footer"
+import Version from "./components/version"
 function App() {
   ScrollAnimation();
   return (
@@ -14,8 +14,8 @@ function App() {
          <Home />
          <About />
          <Work />
-         <Contact />
          <Footer />
+         <Version />
        
     </div>
   )

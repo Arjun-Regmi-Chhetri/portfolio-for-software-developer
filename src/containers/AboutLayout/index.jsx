@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../../assets/8.png';
+import image from '../../assets/arjun.png';
 
 export default function AboutLayout(){
     return(
@@ -24,7 +24,7 @@ export default function AboutLayout(){
                     <div className="imgborder">
                   </div>
                   <div className="imgbox" data-aos="flip-right"  data-aos-duration="1000">
-                      <img src={image} alt="Arjun Chhetri" />
+                      <img src={image} alt="Arjun Chhetri - Software Developer" />
                   </div>
                   </div>
                   

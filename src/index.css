@@ -1108,6 +1108,29 @@ padding: 5px 0;
 }
 
 
+.version{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  height: 70px;
+  width: 70px;
+  background: linear-gradient(135deg, #6179ff 0%, #6a89cc 100%); /* Unique gradient */
+  color: var(--backgroundColor);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.version:hover{
+  transform: scale(1.15); /* Slightly larger on hover */
+  background: linear-gradient(135deg, #6a89cc 0%, #ff6f61 100%); /* Reverse gradient for hover */
+}
+
+
 @media (max-width: 768px){
 	.footer{
 		margin: 150px 0 -50px 0 !important;
